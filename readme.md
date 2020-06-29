@@ -4,6 +4,15 @@
 
 [LabelPlus](https://github.com/LabelPlus/LabelPlus)
 
+Reverse order img2pdf
+
+```bash
+# for i in "$(ls -1r *.jpg)"; do
+#   echo "$i"
+# done
+img2pdf $(ls -r *.jpg | xargs) -o rev.pdf
+```
+
 Convert LF to CRLF
 
 ```bash
