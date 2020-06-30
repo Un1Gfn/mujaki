@@ -13,6 +13,17 @@ Reverse order img2pdf
 img2pdf $(ls -r *.jpg | xargs) -o rev.pdf
 ```
 
+```bash
+cp -v test4.md out_test4.md; \
+for i in {1..20}; do
+  S="$(printf "s|# %02d|# test4/%03d.jpg|g" "$i" $((i+3)))"
+  echo "$S"
+  sed -ie "$S" out_test4.md
+done
+```
+
+<details><summary>h</summary>
+
 Convert LF to CRLF
 
 ```bash
@@ -21,8 +32,6 @@ file *.txt; \
 unix2dos -n {,lf_}test4.txt; \
 file *.txt
 ```
-
----
 
 [ブックマーク](https://b.hatena.ne.jp/Un1Gfn/bookmark)
 
@@ -51,3 +60,5 @@ file *.txt
 
 ※お申し込みの日付と同じ日付が存在しない月は、末日が決済日となります。
 [被災者になって分かったこと](https://www.kobe-np.co.jp/rentoku/sinsai/01/rensai/199501/0005491602.shtml)
+
+</details>
