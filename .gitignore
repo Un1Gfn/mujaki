@@ -1,4 +1,9 @@
 gfm_*.html
+
 /test4/
-lf_*.txt
-out_*.md
+/obv.pdf
+/rev.pdf
+
+/lf_*.txt
+/out_*.md
+

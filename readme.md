@@ -4,24 +4,6 @@
 
 [LabelPlus](https://github.com/LabelPlus/LabelPlus)
 
-Reverse order img2pdf
-
-```bash
-# for i in "$(ls -1r *.jpg)"; do
-#   echo "$i"
-# done
-img2pdf $(ls -r *.jpg | xargs) -o rev.pdf
-```
-
-```bash
-cp -v test4.md out_test4.md; \
-for i in {1..20}; do
-  S="$(printf "s|# %02d|# test4/%03d.jpg|g" "$i" $((i+3)))"
-  echo "$S"
-  sed -ie "$S" out_test4.md
-done
-```
-
 <details><summary>h</summary>
 
 Convert LF to CRLF
