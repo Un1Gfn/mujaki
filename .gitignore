@@ -1,8 +1,8 @@
 gfm_*.html
 
 /test4/
-/obv.pdf
-/rev.pdf
+/obverse.pdf
+/reverse.pdf
 
 /lf_*.txt
 /out_*.md

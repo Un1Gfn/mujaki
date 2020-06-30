@@ -2,16 +2,18 @@
 
 clean:
 	@rm -fv out_*.md lf_*.txt
-	@rm -fv rev.pdf obv.pdf
+	@rm -fv reverse.pdf obverse.pdf
 	@rm -rfv test4/
 
+test4/:test4.rar
 test4:test4.rar
+test4 test4/:
 	unrar x $<
 
-obv.pdf:test4/
+obverse.pdf:test4/
 	img2pdf $</*.jpg -o $@
 
-rev.pdf:test4/
+reverse.pdf:test4/
 	img2pdf $$(ls -1r $</*.jpg | xargs) -o $@
 
 out_test4.md:test4.md
@@ -21,7 +23,7 @@ out_test4.md:test4.md
 	  sed -e "$$S" -i $@; \
 	done
 	@echo
-	@echo "  gfm $$(realpath $@)"
+	@echo "gfm $$(realpath $@)"
 	@echo
 
 text_$(shell git rev-parse --short HEAD).pdf:
