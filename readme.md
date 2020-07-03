@@ -1,10 +1,14 @@
+链接: https://pan.baidu.com/s/1VNTdPhcnePsbTysYWRcQyw 提取码: hrgb
+
+链接: https://pan.baidu.com/s/11pZKfxFUxzIv4ADejC0rew 提取码: emim
+
+<details><summary>h</summary>
+
 [無邪気漢化組官方部落格](http://mujaki.blog.jp/)
 
 [無邪気漢化組招募圖_ver.4.1](https://www.wnacg.org/photos-view-id-7725625.html)
 
 [LabelPlus](https://github.com/LabelPlus/LabelPlus)
-
-<details><summary>h</summary>
 
 Convert LF to CRLF
 
