@@ -2,6 +2,19 @@
 
 链接: https://pan.baidu.com/s/11pZKfxFUxzIv4ADejC0rew 提取码: emim
 
+ja_tw.txt
+
+tw.txt
+
+Convert LF to CRLF
+
+```bash
+rm -fv lf_*.txt; \
+file *.txt; \
+unix2dos -n {,lf_}tw.txt; \
+file *.txt
+```
+
 <details><summary>h</summary>
 
 [無邪気漢化組官方部落格](http://mujaki.blog.jp/)
@@ -9,15 +22,6 @@
 [無邪気漢化組招募圖_ver.4.1](https://www.wnacg.org/photos-view-id-7725625.html)
 
 [LabelPlus](https://github.com/LabelPlus/LabelPlus)
-
-Convert LF to CRLF
-
-```bash
-rm -fv lf_*.txt; \
-file *.txt; \
-unix2dos -n {,lf_}test4.txt; \
-file *.txt
-```
 
 [ブックマーク](https://b.hatena.ne.jp/Un1Gfn/bookmark)
 
